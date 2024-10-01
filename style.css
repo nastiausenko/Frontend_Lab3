@@ -9,15 +9,17 @@ body {
     width: 90%;
     height: 750px;
     margin: 0 auto;
-    background-color: aqua;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #header {
     width: 100%;
     background-color: #6FA9E6;
     height: auto;
-    line-height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -28,21 +30,22 @@ h1 {
     background-color: #E6B3CE;
     width: 100%;
     height: auto;
-    line-height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 #img-left {
     background-color: #C9E6A3;
-    float: left;
     width: 80%;
-    line-height: 550px;
-    height: auto;
+    height: 550px;
+    display: flex;
+    justify-content: center;
 }
 
 #text-right {
     background-color: #9ABF89;
     width: 20%;
-    float: right;
-    line-height: 550px;
-    height: auto;
+    height: 550px;
+    display: flex;
+    justify-content: center;
 }
